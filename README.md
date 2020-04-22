@@ -9,10 +9,10 @@ However, it is not wrong to leave it out. Your app will be slighly slower.
 If your app is generating more complex HTML in a v-for loop, you may start to notice a delay when the data is updated.
 
 Example: 
-~74ms to re-draw table without v-bind:key.  About 5000 nodes (HTML elements) have to be re-drawn
-~5ms to re-draw table with v-bind:key.  13 nodes (HTML elements) have to be re-drawn
+~74ms to re-draw table without v-bind:key.  About 5000 nodes (HTML elements) have to be re-drawn 
+~5ms to re-draw table with v-bind:key.  13 nodes (HTML elements) have to be re-drawn 
 
-Screenshots - performance tool in Chrome dev tools
+Screenshots from performance tool in Chrome dev tools
 
 ## No v-bind:key
 <img src="img/key.png">
